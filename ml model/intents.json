@@ -1,0 +1,356 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, how can I help?",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time",
+                "No, that's it"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ]
+        },
+        {
+            "tag": "Library",
+            "patterns": [ "Library" ,
+                 "books" ,  
+                "From where i can get books",
+                "where is the library",
+                "library is on which floor",
+                "what kind of books are available in liberary",
+                "does ips academy have a E-Library",
+                ""
+
+
+                "does there is a library in IPS Academy for student",
+                "from where i can issue books"
+            ],
+            "responses": [
+                "The library is at 5th floor on Block A. Please contact there in case of any query."
+            ]
+        },
+        {
+            "tag": "Transport",
+            "patterns": [ "Transport" ,
+                 "Bus" , 
+                 "Transport Facility" , 
+                 "where to get bus for ips academy",
+                "is there is a transport facility in IPS ",
+                "Is bus is available in IPS", "Can i Reach to IPS Academy via college bus",
+                " what is the bus charges for year ",
+                "how to avail bus Facility in IPS",
+                " Contact Number to avail Bus transport"
+            ],
+            "responses": [
+                "Yes , you Can avail the bus facility in around 30000/- RS per annum. To get details Information you can Contact on 074230-XXXXX  OR you can use public transport facility like Local bus / city bus or ibus"
+            ]
+        },
+        {
+            "tag": "Canteen and Mess",
+            "patterns": [ "canteen", 
+                "mess" ,
+                "food" ,
+                 "hungry" ,
+                  "tea" ,
+               "way of canteen"
+                "Is there is a mess inside the campus ",
+                " is there is the canteen inside the college",
+                "can we eat inside the mess",
+                "Food facility inside the Campus",
+                "how much did i have to pay for the food ",
+                " Can we eat inside the mess"
+            ],
+            "responses": [
+                " Yes there is a mess and canteen and you can have food inside mess in 50rs per person",
+                "canteen is near training and placement cell"
+            ]
+        },
+        {
+            "tag": "Address",
+            "patterns": [ "IPS academy Location",
+                "Location of the ips academy",
+                "Location",
+                "Address of the Ips academy",
+                "Ips academy address",
+                "address",
+                "ips academy",
+                "how to reach IPS academy",
+                "what is the proper address of ips academy ",
+                "address of ips academy"
+            ],
+        "responses": [
+                "Knowledge Village, Rajendra Nagar , A.B Road, Indore, Madhya Pradesh 452012",
+                "you can type 'menu' and in that you will find the option 'college information'"
+            ]
+        },
+        {
+            "tag": "Scholarship",
+            "patterns": [ "Scholarship",
+                "MP scholarship",
+                "Scholarship department",
+                "How you could help me in scholarship?",
+                "Where is the Scholarship department",
+                "who will help us with problem regarding Scholarship ",
+                "Details about all type of Scholarship",
+                "scholarship",
+                "scholarship department",
+                "is there any department for scholarship",
+                "scholarship related query",
+                "i want to know about scholarship",
+                "i want to know about scholarship department"
+            ],
+            "responses": [
+                " The Scholarship department is on the ground floor (block A) , Where you can get all the  information about the Scholarship offers by Gov."
+            ]
+        },
+        {
+            "tag": "Fees Submission",
+            "patterns": [ "Fees" ,
+                "Fees department",
+                "where and how to submot the fees",
+                "where i have to  submit my fees ",
+                " which Department manages the fees of students.",
+                "In how many modes can i submit my fees",
+                "can i submit my fees via BHIM UPI",
+                "Can i use Phonepay to submit my fees",
+                "Can i use googlepay to submit my fees",
+                "Can i use Paytm to submit my fees",
+                " Can i deposit my fees in cash"
+            ],
+            "responses": [
+                "You can submit your fees in form of cheque/DD/online modes at 1st floor , Central building opp. Pharmacy college and you can't deposit your fees in CASH "
+            ]
+        },
+        {
+            "tag": "teacher deatils",
+            "patterns": [ "Teacher",
+                "Facility details",
+                "teacher details",
+                "facility",
+                "teaching staff",
+                "details of the teachers of ips academy",
+                "IPS academy facility deatils",
+
+                " From where will i get all details of teacher ",
+                " where is the HOD office of computer department",
+                "where is the HOD office of computer department",
+                "where is the HOD office of electrial department",
+                "where is the HOD office of mech department"
+            ],
+            "responses": [
+                "By using the campus guide feature of our telegram bot , you can easily get all details of teachers and there respective offices"
+            ]
+        },
+        {
+            "tag": "notice ",
+            "patterns": [ "notice Board",
+                "college notice",
+                "latest notice about college " ,
+                " How will we receieve the latest notice ",
+                " what is the website to get latest notice about college"
+            ],
+            "responses": [
+                "use website www.ipsacademy.org or easily use our telegram bot to get latest notice , select the notice button to get latest notice of College"
+            ]
+        },
+        {
+            "tag": "CMS",
+            "patterns": [ "CMS" , 
+                "student profile CMS",
+                "how CMS works",
+                "what is CMS",
+                " What is computer code",
+                " how to recover CMS password",
+                "where to see result"
+            ],
+            "responses": [
+                "computer code is a unique computer code given to every student to access specified portal for college releted stuff , CMS is the website for students where they login with unique computer code to enjoy a specific interface where they have access to see results , receipts and many more information . In case you have forgotton your computer code or password , immediately contact your coordinator"
+            ]
+        },
+        {
+            "tag": "Exams",
+            "patterns": [ "Exam",
+                "examination",
+                "college exam",
+                "semester exam",
+                "MST",
+                "MID SEMESETER EXAM",
+                "end semester exam",
+                "Total marks in MST",
+                "Passing Marks in MST",
+                "Marks in End sem",
+                "Passing marks in End sem",
+                "how exams are conducted in IPS Academy",
+                "what is the exam patterns of IPS",
+                "how many exams are there in IPS in a Particular semester"
+            ],
+            "responses": [
+                "In a semester , there are 2 MSTs of 20 marks in each subject followed by a main exams of 70 marks of theroy and 30 marks for exrernal where 33% of total is required to clear the examination"
+            ]
+        },
+        {
+            "tag": "scheme and syllabus ",
+            "patterns": [ "syllabus" ,
+                "scheme",
+                "topics in my semester",
+                "topics",
+                "unit details",
+                "how to get syllabus of my department ",
+                "how to get syllabus of my semester",
+                " how to get scheme of my semester",
+                "which units and topics are there in my syllabus",
+                "how to download the syllabus unit wise for my exams",
+                "scheme",
+                "syllabus"
+            ],
+            "responses": [
+                "By using our telegram bot , you can easily get syllabus of any year/semester/department just by clicking scheme and syllbus button or visit college website"
+            ]
+        },
+        {
+            "tag": "NOTES",
+            "patterns": [ "notes",
+                "topics",
+                "unit wise notes",
+                "all topics notes",
+                "topics of all units of my semester",
+                "from where i can download the notes",
+                "which notes should i prefer for my study",
+                "how to get notes of all subjects of my semester",
+                " how to download notes of my departmental subject "
+            ],
+            "responses": [
+                " Select the notes button or type (subject name __ notes ) on our bot. You can also visit the rgpvnotes website for the same"
+            ]
+        },
+        {
+            "tag": "bot not working or responding",
+            "patterns": [ "bot not working well",
+                "bot is not responding well",
+                "bot is not working",
+                "bot taking too long to respond",
+                "server fails",
+                " bad experience",
+                "too slow",
+                "poor",
+                "you need to work on some issue "
+            ],
+            "responses": [
+                "Incase Bot is not responding , please let us know about it as soon as it started working on +9926xxxxx0. For review and feedback email us on chatbotDev@gmail.com"
+            ]
+        },
+        {
+            "tag": "Suggestion and feedback",
+            "patterns": [ "suggestion",
+                 "feedback",
+                 "review",
+                "your bot is helpful ",
+                "My Experience with this bot was quite good",
+                "loved this",
+                "thanks for making this",
+                " Superb experience",
+                "good bot",
+                "thank you",
+                "thanks",
+                "tysm"
+            ],
+            "responses": [
+                "Thank you , if you liked our service. For review and feedback email us on chatbotDev@gmail.com"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "I am feeling bored",
+                "Joke please",
+                "Make me laugh",
+                "I want to laugh"
+            ],
+            "responses": [
+                "Here's a joke to lighten your mood \nMy roommate and I are ordering some Chinese food for delivery.",
+                "Guy staring at an ambulance in front of Whole Foods:\n “Somebody must have accidentally eaten gluten.",
+                "What has T in the beginning, T in the middle, and T at the end? \n- A teapot."
+
+                {
+                    "tag": "MPONLINE",
+                    "patterns":[
+                        "is there a MPONLINE facility in college campus",
+                        "how can i fill forms insides college",
+                        "MP online",
+                        "where is the mponline in college campus",
+                        "location of the mponline inside the campus"
+                    ],
+                    "responses":[" Yes , there is a MPOnline inside the campus near canteen"]
+
+
+                },
+                {
+                    "tag": "Photocopy and stationery",
+                    "patterns":["photocopy and stationery",
+                        "photocopy",
+                        "stationery",
+                        "pens",
+                        "books",
+                        "lab manual",
+                        "sheets",
+                        "notes",
+                        "is there is a stationery inside college",
+                        " is there is a Photocopy facility inside college",
+                        "is lab manual are available inside photocopy shop",
+                        "is all stationery products are available in shop",
+                        "where to get binded manuals",
+                        "binding"
+                    ],
+                    "responses":[]
+                }
+            ]
+        }
+    ]
+}
